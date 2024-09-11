@@ -1,0 +1,11 @@
+image: python:3.9.15-bullseye
+
+stages:         
+  - notification
+
+gchat-notification:       
+  stage: notification
+  script:
+    - bash statusCode.sh
+  tags:
+    - runner_tag
