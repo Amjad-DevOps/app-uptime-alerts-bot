@@ -5,7 +5,7 @@ input_str = sys.argv[1]
 print(input_str)​  
 
 def main():
-    """Hangouts Chat incoming webhook quickstart."""
+    """ Hangouts Chat incoming webhook quickstart."""
     url = '<gchat webhook url>'
     bot_message = {
         'text': input_str}
